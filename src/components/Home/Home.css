@@ -1,0 +1,18 @@
+.top {
+    height: 275px;
+}    
+@media (max-width: 775px) {
+    .top {
+        height: 400px;
+    }
+    .top-textarea {
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 983px) {
+    .button-control {
+        display:flex;
+    }
+}
+  
